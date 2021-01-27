@@ -1,0 +1,33 @@
+<div class="profile-data-container clearfix">
+    <div class="who-to-follow-text">
+        <span>WHO TO FOLLOW</span>
+        <a href="javascript:void(0)" id="see-5-more" class="label">See 5 more</a>
+    </div>
+    <div class="suggestion-wrap">
+        <ul class="follow-suggestions" id="follow-suggestions">
+            {{#whoToFollow}}
+                <li class="clearfix">
+                    <div class="profile-status">
+                        <img src="assets/img/{{profile}}">
+                        <span class="online {{status}}"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="profile-name clearfix">
+                        <p class="name">{{name}}</p>
+                        <p class="profession">{{profession}}</p>
+                    </div>
+                </li>
+            {{/whoToFollow}}  
+        </ul>
+    </div>
+</div>
+<div class="profile-data-container clearfix">
+    <div class="who-to-follow-text">
+        <span>FRIENDS</span>
+        <a href="javascript:void(0)" id="see-10-more" class="label">See 10 more</a>
+    </div>
+    <div class="only-frnds-wrap" id="only-frnds-wrap">
+        {{#friends}}
+            <img class="friend-dp" data-toggle="tooltip" data-placement="top" title="{{name}}" src="assets/img/{{profile}}">
+        {{/friends}} 
+    </div>
+</div>

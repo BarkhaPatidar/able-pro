@@ -1,0 +1,528 @@
+.navbar-container {
+  background-color: #1B8AF8;
+  box-shadow: 0 2px 5px 0 #797878; }
+  .navbar-container .signup-btn {
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 15px; }
+  .navbar-container .navbar-menu-items {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px; }
+    .navbar-container .navbar-menu-items .icon-badge {
+      position: relative; }
+      .navbar-container .navbar-menu-items .icon-badge span {
+        background-color: #d9534f;
+        font-size: 10px;
+        font-weight: bolder;
+        left: 10px;
+        position: absolute;
+        top: -10px; }
+  .navbar-container div.navbar-menu-items {
+    display: inline-block;
+    height: 40px;
+    padding-top: 6px; }
+    .navbar-container div.navbar-menu-items img {
+      border-radius: 50%;
+      height: inherit; }
+  .navbar-container .navbar-menu-dropdown {
+    font-size: 16px;
+    margin-left: 4px;
+    padding-top: 14px; }
+    .navbar-container .navbar-menu-dropdown a.menu-dropdown {
+      color: #ffffff; }
+      .navbar-container .navbar-menu-dropdown a.menu-dropdown:hover, .navbar-container .navbar-menu-dropdown a.menu-dropdown:focus {
+        text-decoration: none; }
+      .navbar-container .navbar-menu-dropdown a.menu-dropdown span {
+        font-size: 13px; }
+    .navbar-container .navbar-menu-dropdown ul li {
+      text-align: center; }
+      .navbar-container .navbar-menu-dropdown ul li a {
+        color: #1B8AF8;
+        font-weight: 800; }
+  .navbar-container img.navbar-menu-items {
+    width: 65px; }
+  .navbar-container .navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500; }
+
+.navbar-toggle {
+  background-color: #ffffff; }
+  .navbar-toggle .icon-bar {
+    background-color: #1B8AF8; }
+
+body {
+  background-color: #E5E5E5; }
+
+.error {
+  color: #f8351b; }
+
+.main-container .login-wrapper {
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+  position: relative;
+  width: 35%; }
+  .main-container .login-wrapper .form-container {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin-top: 100px; }
+    .main-container .login-wrapper .form-container .form-heading {
+      color: #1B8AF8;
+      font-size: 30px;
+      padding-bottom: 15px;
+      text-align: center; }
+    .main-container .login-wrapper .form-container #login-error {
+      display: none; }
+    .main-container .login-wrapper .form-container .login-btn-wrap {
+      text-align: center; }
+      .main-container .login-wrapper .form-container .login-btn-wrap .login-btn {
+        background-color: #1B8AF8;
+        color: #ffffff; }
+        .main-container .login-wrapper .form-container .login-btn-wrap .login-btn:focus {
+          outline: none; }
+
+.main-container .profile-container {
+  padding-top: 100px; }
+  .main-container .profile-container .profile-breadcrumb {
+    list-style: none;
+    padding: 0; }
+    .main-container .profile-container .profile-breadcrumb li {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      padding-right: 5px;
+      vertical-align: middle; }
+      .main-container .profile-container .profile-breadcrumb li:nth-child(even) {
+        color: #848D95;
+        font-size: 9px;
+        font-weight: 900; }
+      .main-container .profile-container .profile-breadcrumb li a {
+        color: #1B8AF8; }
+  .main-container .profile-container .banner {
+    position: relative; }
+    .main-container .profile-container .banner .banner-img {
+      width: 100%; }
+    .main-container .profile-container .banner .friend-user-data {
+      position: absolute;
+      top: 120px;
+      width: 23%; }
+      .main-container .profile-container .banner .friend-user-data .profile-data-container {
+        background-color: #ffffff;
+        border-radius: 4px;
+        margin-bottom: 30px; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .profile-pic {
+          width: 100%;
+          padding: 15px; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .profile-text {
+          text-align: center; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .profile-text span {
+            font-size: 19px; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .profile-text h6 {
+            font-size: 13px;
+            margin: 0; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .user-statistics {
+          text-align: center; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .user-statistics p {
+            display: inline-block;
+            margin: 20px 5px;
+            width: 25%; }
+            .main-container .profile-container .banner .friend-user-data .profile-data-container .user-statistics p span {
+              color: #1B8AF8;
+              display: block;
+              font-size: 20px; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .who-to-follow-text {
+          border-bottom: 1px solid #bec1c2;
+          color: #5e6061;
+          font-size: 15px;
+          font-weight: 500;
+          padding: 20px; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .who-to-follow-text a {
+            background-color: #1B8AF8;
+            float: right; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap {
+          position: relative; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions {
+            list-style: none;
+            padding: 20px; }
+            .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li {
+              padding-bottom: 10px; }
+              .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-status {
+                position: relative; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-status img {
+                  border-radius: 50%;
+                  float: left;
+                  width: 20%; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-status .online {
+                  top: 35px;
+                  color: #51B154;
+                  font-size: 8px;
+                  position: absolute;
+                  right: 80%;
+                  z-index: 1000; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-status .offline {
+                  color: #FA5551; }
+              .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-name {
+                display: inline-block;
+                padding-left: 15px; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-name p {
+                  margin: 0; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-name .name {
+                  font-weight: 600; }
+                .main-container .profile-container .banner .friend-user-data .profile-data-container .suggestion-wrap .follow-suggestions li .profile-name .profession {
+                  color: #747677;
+                  font-size: 13px;
+                  font-weight: 500; }
+        .main-container .profile-container .banner .friend-user-data .profile-data-container .only-frnds-wrap {
+          padding: 20px 0;
+          text-align: center; }
+          .main-container .profile-container .banner .friend-user-data .profile-data-container .only-frnds-wrap .friend-dp {
+            border-radius: 50%;
+            margin: 0 10px 10px 0;
+            width: 23%; }
+  .main-container .profile-container .timeline-container {
+    background-color: #ffffff;
+    float: right;
+    width: 75%; }
+    .main-container .profile-container .timeline-container .timeline-bar {
+      padding: 0; }
+      .main-container .profile-container .timeline-container .timeline-bar li {
+        padding: 10px; }
+        .main-container .profile-container .timeline-container .timeline-bar li a {
+          color: #5e6061;
+          font-size: 17px;
+          font-weight: 400; }
+          .main-container .profile-container .timeline-container .timeline-bar li a:focus {
+            outline: none; }
+        .main-container .profile-container .timeline-container .timeline-bar li:hover {
+          background-color: #eee; }
+      .main-container .profile-container .timeline-container .timeline-bar li.active {
+        border-radius: 0;
+        border-bottom: 5px solid #1B8AF8; }
+        .main-container .profile-container .timeline-container .timeline-bar li.active a {
+          background-color: #ffffff;
+          color: #1B8AF8; }
+        .main-container .profile-container .timeline-container .timeline-bar li.active:hover {
+          background-color: #ffffff; }
+    .main-container .profile-container .timeline-container .add-post-wrap {
+      background-color: #E5E5E5; }
+      .main-container .profile-container .timeline-container .add-post-wrap .add-post {
+        background-color: #E5E5E5;
+        margin-top: 20px;
+        text-align: right; }
+        .main-container .profile-container .timeline-container .add-post-wrap .add-post a {
+          background-color: #1B8AF8;
+          color: #ffffff;
+          font-size: 20px; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap {
+      background-color: #E5E5E5; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts {
+        background-color: #E5E5E5;
+        padding: 25px 0;
+        position: relative; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs {
+          display: flex; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon {
+            padding: 1em 2em; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon .timeline-image-wrap {
+              position: relative;
+              font-size: 0.8em; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon .timeline-image-wrap::after {
+                content: '';
+                width: 100%;
+                height: 0;
+                border-bottom: 3px solid #bec1c2;
+                position: absolute;
+                top: 1.75em;
+                left: 2.5em;
+                z-index: 0; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon img {
+              border-radius: 50%;
+              height: 35px;
+              border: 0.35em solid #f4f8f7;
+              position: relative;
+              z-index: 10; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container {
+            background-color: #ffffff;
+            border-radius: 4px;
+            float: right;
+            margin-bottom: 30px;
+            position: relative;
+            width: 90%;
+            z-index: 1; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-header {
+              padding: 15px;
+              z-index: 1; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-header span {
+                font-weight: 500; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-header p {
+                color: #848D95;
+                font-size: 12px;
+                font-weight: 400; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-header i {
+                color: #848D95;
+                float: right;
+                padding-top: 4px; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-header .post-content {
+                padding: 10px 0 0 0;
+                margin: 0; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-photo {
+              z-index: 1; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-photo img {
+                width: 100%; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer {
+              border-top: 1px solid #848D95;
+              padding: 20px 20px 20px 10px;
+              z-index: 1; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh {
+                border-right: 1px solid;
+                color: #848D95;
+                font-size: 12px;
+                font-weight: 400;
+                padding: 0 10px; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh:last-child {
+                  border: none; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh.like i {
+                  cursor: pointer; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh .liked {
+                  color: #f8351b; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh .post-id {
+                  display: none; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap::before {
+              content: '';
+              width: 0;
+              height: 105%;
+              border-left: 3px solid #bec1c2;
+              position: absolute;
+              top: 0;
+              left: -3.35em;
+              z-index: -1; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container {
+        margin-top: 25px; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information {
+          background-color: #ffffff;
+          border-radius: 4px; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .about-header {
+            border-bottom: 1px solid #848D95;
+            padding: 20px;
+            padding-bottom: 30px; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .about-header span {
+              color: #848D95;
+              font-size: 15px;
+              font-weight: 500; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .about-header a {
+              background-color: #1B8AF8;
+              border-radius: 2px;
+              color: #ffffff;
+              float: right;
+              padding: 5px;
+              text-align: center;
+              width: 4%; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content {
+            padding: 35px;
+            padding-bottom: 15px; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .info-form-container {
+              display: inline; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .info-form-container .basic-info-form {
+                display: inline; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .info-form-container .basic-info-form .basic-info-sub-wrap {
+                  text-align: center; }
+                  .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .info-form-container .basic-info-form .basic-info-sub-wrap button {
+                    background-color: #1B8AF8;
+                    color: #ffffff; }
+                    .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .info-form-container .basic-info-form .basic-info-sub-wrap button:focus {
+                      outline: none; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-names {
+              display: inline-block;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              width: 20%; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-names li {
+                height: 60px; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-names li span {
+                  font-weight: 600; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values {
+              display: inline-block;
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              width: 65%; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values.editable {
+                display: none; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values li {
+                height: 60px; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values li span {
+                  color: #848D95;
+                  font-weight: 500;
+                  outline: none;
+                  padding: 5px;
+                  width: 100%; }
+                  .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values li span:focus {
+                    border: 1px solid #848D95;
+                    border-radius: 2px; }
+                  .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values li span.error {
+                    color: #f8351b; }
+                .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values li .focused {
+                  border: 1px solid #848D95;
+                  border-radius: 2px; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .line-between-about {
+          border-bottom: 3px solid #b7bdc2;
+          margin: 25px 0; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .editable {
+          display: none; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-gallery-wrap .timeline-gallery-container {
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin: 25px 0;
+        padding: 20px; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-gallery-wrap .timeline-gallery-container .timeline-gallery img {
+          border-radius: 5px;
+          height: 125px;
+          margin: 0 2px 5px 0;
+          width: 24%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container {
+        border-radius: 5px;
+        margin: 25px 0; }
+        .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab {
+          background-color: #ffffff;
+          border-radius: 5px;
+          display: inline-block;
+          margin: 0 14px 25px 0;
+          padding: 10px;
+          position: relative;
+          width: 49%; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab:nth-child(even) {
+            margin-right: 0; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab span {
+            color: #848D95;
+            float: right; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab img {
+            height: 115px;
+            width: 30%; }
+          .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content {
+            display: inline-block;
+            padding: 10px;
+            position: absolute;
+            top: 23%; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content p:first-child {
+              font-size: 15px;
+              font-weight: 600;
+              margin: 0 0 5px 0; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content p:last-child {
+              color: #848D95;
+              font-size: 13px; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content input {
+              background-color: #1B8AF8;
+              color: #ffffff;
+              font-size: 12px;
+              padding: 4px; }
+              .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content input:focus {
+                outline: none; }
+            .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content .user-id {
+              display: none; }
+
+.add-scroll {
+  height: 250px;
+  overflow-y: scroll; }
+
+.modal-title {
+  color: #4e555a;
+  text-align: center; }
+
+.close {
+  color: #1B8AF8;
+  opacity: 0.8; }
+
+.new-post-form {
+  padding: 40px; }
+  .new-post-form label {
+    color: #4e555a; }
+    .new-post-form label span {
+      color: #f8351b; }
+
+.save-post {
+  text-align: center; }
+  .save-post button {
+    background-color: #1B8AF8;
+    color: #ffffff; }
+    .save-post button:hover {
+      color: #ffffff;
+      outline: none; }
+    .save-post button:focus {
+      outline: none; }
+    .save-post button:active:focus {
+      outline: none; }
+
+@media only screen and (max-width: 767px) {
+  .navbar-container div.navbar-menu-items {
+    display: inline-block;
+    height: 40px;
+    padding-top: 0; }
+  .main-container .login-wrapper {
+    width: 100%; }
+  .main-container .profile-container .banner .friend-user-data {
+    position: static;
+    width: 100%; }
+  .main-container .profile-container .timeline-container {
+    width: 100%; }
+    .main-container .profile-container .timeline-container .timeline-menu-toggle {
+      background-color: #1B8AF8;
+      margin: 10px 0;
+      padding: 12px 8px; }
+      .main-container .profile-container .timeline-container .timeline-menu-toggle .icon-bar {
+        background-color: #ffffff; }
+    .main-container .profile-container .timeline-container .add-post-wrap .add-post {
+      margin-top: 10px;
+      text-align: left; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon {
+      display: none; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container {
+      width: 100%; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container {
+      margin-top: 60px; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .about-header a {
+        float: none; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-values {
+        float: right;
+        width: 55%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container .basic-information .basic-info-content .basic-info-label-names {
+        width: 45%; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab {
+      width: 100%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab img {
+        height: 85px;
+        width: 20%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab .friend-content {
+        width: 75%;
+        top: 0; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-gallery-wrap {
+      margin-top: 60px; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-gallery-wrap .timeline-gallery-container .timeline-gallery img {
+        width: 100%; } }
+
+@media only screen and (min-width: 600px) {
+  .main-container .profile-container .banner .friend-user-data {
+    width: 35%; }
+  .main-container .profile-container .timeline-container {
+    width: 60%; }
+    .main-container .profile-container .timeline-container .add-post-wrap .add-post {
+      text-align: right; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab {
+      width: 92%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab img {
+        width: 35%; } }
+
+@media only screen and (min-width: 992px) {
+  .main-container .profile-container .banner .friend-user-data {
+    width: 23%; }
+  .main-container .profile-container .timeline-container {
+    width: 75%; }
+    .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab {
+      width: 49%; }
+      .main-container .profile-container .timeline-container .timeline-posts-wrap .frnd-request-wrap .frnd-request-container .friend-tab img {
+        width: 30%; } }

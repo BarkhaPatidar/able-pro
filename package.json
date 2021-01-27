@@ -1,0 +1,19 @@
+{
+  "name": "able",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w assets/css/index.scss -o assets/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.3",
+    "localforage": "^1.9.0",
+    "mustache": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

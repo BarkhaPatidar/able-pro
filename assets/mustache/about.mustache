@@ -1,0 +1,81 @@
+<div class="timeline-posts-wrap clearfix" >
+    <div class="profile-about-wrap">
+        <div class="profile-about-container">
+            <div class="basic-information">
+                <div class="about-header">
+                    <span>BASIC INFORMATION</span>
+                    <a href="javascript:void(0)" id="basic-info-edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                </div>
+                <div class="basic-info-content clearfix">
+                    <ul class="basic-info-label-names">
+                        <li><span>Full Name</span></li>
+                        <li><span>Gender</span></li>
+                        <li><span>Birth Date</span></li>
+                        <li><span>Marital Status</span></li>
+                        <li><span>Location</span></li>
+                    </ul>
+                    <ul class="basic-info-label-values basic-info">
+                    {{#aboutData}}
+                        <li><span name="name">{{name}}</span></li>
+                        <li><span name="gender">{{gender}}</span></li>
+                        <li><span name="dob">{{dob}}</span></li>
+                        <li><span name="maritalStatus">{{maritalStatus}}</span></li>
+                        <li><span name="location">{{location}}</span></li>
+                    {{/aboutData}}    
+                    </ul>
+                    <div class="editable" id="basic-info-form-wrap">
+                        <form id="basic-info-form" class="basic-info-form">
+                            <ul class="basic-info-label-values basic-info-inputs">
+                            {{#aboutData}}
+                                <li><input name="name" class="form-control" value = "{{name}}"></li>
+                                <li><input name="gender" class="form-control" value = "{{gender}}"></li>
+                                <li><input name="dob" class="form-control" value = "{{dob}}"></li>
+                                <li><input name="maritalStatus" class="form-control" value = "{{maritalStatus}}"></li>
+                                <li><input name="location" class="form-control" value = "{{location}}"></li>
+                            {{/aboutData}}    
+                            </ul>
+                            <div id="basic-info-sub-wrap" class="basic-info-sub-wrap">
+                                <button type="submit" class="btn" id="basic-info-sub">Save</button>
+                            </div>
+                        </form>    
+                    </div>    
+                </div>
+            </div>
+            <div class="line-between-about"></div>
+            <div class="basic-information">
+                <div class="about-header">
+                    <span>WORK</span>
+                    <a href="javascript:void(0)" id="work-info-edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                </div>
+                <div class="basic-info-content clearfix">
+                    <ul class="basic-info-label-names">
+                        <li><span>Occupation</span></li>
+                        <li><span>Skills</span></li>
+                        <li><span>Jobs</span></li>
+                    </ul>
+                    <ul class="basic-info-label-values work-info">
+                    {{#aboutData}}
+                        <li><span name="profession">{{profession}}</span></li>
+                        <li><span name="skills">{{skills}}</span></li>
+                        <li><span name="jobs">{{jobs}}</span></li>
+                    {{/aboutData}}
+                    </ul>
+                    <div class="editable" id="work-info-form-wrap">
+                        <form id="work-info-form" class="basic-info-form">
+                            <ul class="basic-info-label-values work-info-inputs">
+                                {{#aboutData}}
+                                    <li><input name="profession" class="form-control" value = "{{profession}}"></li>
+                                    <li><input name="skills" class="form-control" value = "{{skills}}"></li>
+                                    <li><input name="jobs" class="form-control" value = "{{jobs}}"></li>
+                                {{/aboutData}}
+                            </ul>
+                            <div id="work-info-sub-wrap" class="basic-info-sub-wrap">
+                                <button type="submit" class="btn" id="work-info-sub">Save</button>
+                            </div>
+                        </form>    
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    

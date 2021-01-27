@@ -1,0 +1,38 @@
+[
+    {
+        "postId" : "1",
+        "user" : "Hermione Granger",
+        "userProfile" : "profile-girl.png",
+        "pic" : "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "caption" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+        "time" : "2021-01-20 22:14:23",
+        "likes" : 40,
+        "comments" : 20,
+        "share" : 4,
+        "liked" : ""
+    },
+    {
+        "postId" : "2",
+        "user" : "Harry Potter",
+        "userProfile" : "profile.jpg",
+        "pic" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTOka7yiD9kwnZGsEZR6-w40z2R9obqb8-g&usqp=CAU",
+        "caption" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+        "time" : "2020-12-20 22:14:23",
+        "likes" : 60,
+        "comments" : 30,
+        "share" : 6,
+        "liked" : ""
+    },
+    {
+        "postId" : "3",
+        "user" : "Jessica Jones",
+        "userProfile" : "avatar-1.png",
+        "pic" : "https://images.unsplash.com/photo-1541423408854-5df732b6f6d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80",
+        "caption" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+        "time" : "2020-01-20 22:14:23",
+        "likes" : 20,
+        "comments" : 10,
+        "share" : 2,
+        "liked" : ""
+    }
+]

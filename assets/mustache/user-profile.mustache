@@ -1,0 +1,13 @@
+{{#myProfile}}
+    <img class="profile-pic" src="assets/img/{{profile}}">
+    <div class="profile-text">
+        <span>{{name}}</span>
+        <h6>{{profession}}</h6>
+    </div>
+    
+    <div class="user-statistics">
+        <p><span>{{#convertNum}}{{following}}{{/convertNum}}</span> Followings</p>
+        <p><span>{{#convertNum}}{{followers}}{{/convertNum}}</span> Followers</p>
+        <p><span>{{#convertNum}}{{activities}}{{/convertNum}}</span> Activities</p>
+    </div>
+{{/myProfile}} 

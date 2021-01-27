@@ -1,0 +1,454 @@
+{
+    "friends" : [
+        {
+            "userId" : "1",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "2",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "3",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "4",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "5",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "6",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "7",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "8",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "9",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "10",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "11",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "12",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "13",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "14",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "15",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "16",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "17",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "18",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "19",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "20",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "21",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "22",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "23",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "24",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "25",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "26",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "27",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "28",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "29",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "30",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "31",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "32",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "33",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "34",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "35",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "36",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "37",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "38",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "39",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "40",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "41",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "42",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "43",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "44",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "45",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "46",
+            "profile" : "profile-girl.png",
+            "name" : "Jessica Jones",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        },
+        {
+            "userId" : "47",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "48",
+            "profile" : "profile.jpg",
+            "name" : "Harry Potter",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "offline"
+        },
+        {
+            "userId" : "49",
+            "profile" : "avatar-1.png",
+            "name" : "Sabrina Spellman",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Following",
+            "status" : "offline"
+        },
+        {
+            "userId" : "50",
+            "profile" : "profile-girl.png",
+            "name" : "Hermione Granger",
+            "profession" : "Software Engineer",
+            "jobs" : "Newput Infotech",
+            "friendStatus" : "Unfollowing",
+            "status" : "online"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<div class="add-post-wrap clearfix">
+    <div class="add-post clearfix">
+        <a href="javascript:void(0)" data-target="#new-post-modal" data-toggle="modal" data-dismiss="modal" id="add-new-post" class="btn" title="Add new post"><i class="fa fa-plus" aria-hidden="true"></i></a>
+    </div>
+</div>
+<div class="timeline-posts-wrap clearfix" >            
+    <div class="timeline-posts">
+        {{#allPosts}}
+            <div class="timeline-post-tabs">
+                <div class="timeline-image-icon">
+                    <div class="timeline-image-wrap">
+                        <img src="assets/img/profile-girl.png" />
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-timeline-wrap">
+                        <div class="post-header clearfix">
+                            <span>{{user}} posted on your timeline</span> <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                            <p>{{#convertTime}}{{time}}{{/convertTime}} ago</p>
+                        </div>
+                        <div class="post-photo">
+                            <img src="{{pic}}">
+                        </div>
+                        <div class="post-header">
+                            <span>{{user}} posted on your timeline</span>
+                            <p  class="post-content">{{caption}}</p>
+                        </div>
+                        <div class="post-footer">
+                            <span class="like-com-sh like">
+                                <p class="post-id">{{postId}}</p>
+                                <i class="fa fa-heart heart-icon {{liked}}" id="heart-icon-{{postId}}" aria-hidden="true"></i> Like (<span id="likes-count-{{postId}}" class="likes-count">{{#convertNum}}{{likes}}{{/convertNum}}</span>)
+                            </span>
+                            <span class="like-com-sh comments"><i class="fa fa-commenting" aria-hidden="true"></i> Comments (<span>{{#convertNum}}{{comments}}{{/convertNum}}</span>)</span>
+                            <span class="like-com-sh share"><i class="fa fa-share-alt" aria-hidden="true"></i> Share (<span>{{#convertNum}}{{share}}{{/convertNum}}</span>)</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>    
+        {{/allPosts}}    
+    </div>
+</div>    

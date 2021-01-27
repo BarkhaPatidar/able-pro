@@ -1,0 +1,18 @@
+<div class="timeline-posts-wrap clearfix" >
+    <div class="frnd-request-wrap clearfix">
+        <div class="frnd-request-container">
+            {{#friends}}
+                <div class="friend-tab clearfix">
+                    <span><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+                    <img src="assets/img/{{profile}}">
+                    <div class="friend-content clearfix">
+                        <p>{{name}}</p>
+                        <p>{{profession}} at {{jobs}}</p>
+                        <input type="button" value="{{#checkStatus}}{{friendStatus}}{{/checkStatus}}" class="btn btn-default unfollow-frnd">
+                        <span class="user-id">{{userId}}</span>
+                    </div>
+                </div>
+            {{/friends}}
+        </div>
+    </div>
+</div>    
