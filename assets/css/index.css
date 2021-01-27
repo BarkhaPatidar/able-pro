@@ -229,21 +229,21 @@ body {
           .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon {
             padding: 1em 2em; }
             .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon .timeline-image-wrap {
-              position: relative;
-              font-size: 0.8em; }
+              font-size: 0.8em;
+              position: relative; }
               .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon .timeline-image-wrap::after {
-                content: '';
-                width: 100%;
-                height: 0;
                 border-bottom: 3px solid #bec1c2;
+                content: '';
+                height: 0;
+                left: 2.5em;
                 position: absolute;
                 top: 1.75em;
-                left: 2.5em;
+                width: 100%;
                 z-index: 0; }
             .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .timeline-image-icon img {
+              border: 0.35em solid #f4f8f7;
               border-radius: 50%;
               height: 35px;
-              border: 0.35em solid #f4f8f7;
               position: relative;
               z-index: 10; }
           .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container {
@@ -293,13 +293,13 @@ body {
                 .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap .post-footer .like-com-sh .post-id {
                   display: none; }
             .main-container .profile-container .timeline-container .timeline-posts-wrap .timeline-posts .timeline-post-tabs .post-container .post-timeline-wrap::before {
-              content: '';
-              width: 0;
-              height: 105%;
               border-left: 3px solid #bec1c2;
+              content: '';
+              height: 105%;
+              left: -3.35em;
               position: absolute;
               top: 0;
-              left: -3.35em;
+              width: 0;
               z-index: -1; }
       .main-container .profile-container .timeline-container .timeline-posts-wrap .profile-about-container {
         margin-top: 25px; }
